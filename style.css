@@ -1,0 +1,51 @@
+body, html {
+    height: 100%; /* Ensures the body and html cover the full height */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+}
+
+body {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/006/076/792/non_2x/10-abstract-modern-attractive-black-and-red-background-free-vector.jpg');
+    background-size: cover; /* Ensures the image covers the entire body */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    min-height: 100vh; /* Ensures the background covers at least the full height of the viewport */
+    display: flex; /* Flexbox layout to center content */
+    align-items: center; /* Vertically centers content */
+    justify-content: center; /* Horizontally centers content */
+}
+
+#stopwatch{
+    /* border: 1px solid wheat; */
+    width: 400px;
+    height: 250px;
+}
+#displaytime{
+    font-size: 75px;
+    color: white;
+    font-family: cursive;
+    position: relative;
+    bottom: 50px;
+    left: 32px;
+}
+#btns{
+    /* border: 1px solid wheat; */
+    position: relative;
+    bottom: 40px;
+}
+.but{
+    height: 40px;
+    width: 90px;
+    margin-right: 15px;
+    margin-left: 15px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+#stop{
+    margin-left: 25px;
+}
